@@ -1,0 +1,152 @@
+.creative-wrapper {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  animation: fadeIn 1.2s ease;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #6a4df5;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.start-btn {
+  padding: 10px 26px;
+  background: #6a4df5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background: #5840cf;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.cards-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.info-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.info-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.info-card p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+.next-btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  background: #5a52e8;
+}
+.quote-box {
+  margin-top: 40px;
+  padding: 25px;
+  border-left: 4px solid #6c63ff;
+  background: #f4f2ff;
+  border-radius: 12px;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.9;
+}
+.checklist {
+  margin-top: 40px;
+}
+
+.checklist h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.checklist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.checklist li {
+  background: #eef0ff;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.motivation-box {
+  margin-top: 40px;
+  padding: 25px;
+  background: #fff2fe;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.start-creative-btn {
+  margin-top: 15px;
+  padding: 12px 24px;
+  font-size: 17px;
+  border: none;
+  border-radius: 12px;
+  background: #ff7ae0;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-creative-btn:hover {
+  background: #ff5ccd;
+}
+
